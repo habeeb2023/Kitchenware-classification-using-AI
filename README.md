@@ -44,7 +44,7 @@ This step ensures that the CNN receives standardized data, which is crucial for 
 
 ---
 
-## CNN Model Architecture
+## 2. CNN Model Architecture
 
 The CNN model in `Main.py` is designed with layers that help the network learn complex patterns in image data. The architecture includes:
 - **Convolutional Layers**: Extract features from images by detecting edges, textures, and shapes.
@@ -55,7 +55,7 @@ The model's training parameters, such as learning rate and batch size, are adjus
 
 ---
 
-## Q-Learning Algorithm and Self-Improvement
+## 3. Q-Learning Algorithm and Self-Improvement
 
 The Q-learning algorithm implemented in `Q_learning.py` enables the model to adapt based on new data over time. This process involves:
 1. Predicting the class of input images.
